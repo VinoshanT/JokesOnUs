@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/pureWhite"
+    android:elevation="@dimen/elevation_lv_item"    >
+    
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_lv_item"
+        android:id="@+id/joke_text"
+        />
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="1dp"
+        android:background="@color/grayishColor"
+        android:id="@+id/generic_view"
+        android:layout_below="@id/joke_text"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/generic_view">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:layout_centerVertical="true">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_thumb_down_black_24dp"
+                android:id="@+id/thumbs_down_btn"
+                android:backgroundTint="@color/button_unselected"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:id="@+id/number_of_downvotes"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_star_border_black_24dp"
+            android:backgroundTint="@color/button_unselected"
+            android:id="@+id/favorite_btn"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:id="@+id/number_of_upvotes"
+                android:padding="5dp"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_thumb_up_black_24dp"
+                android:id="@+id/thumbs_up_btn"
+                android:backgroundTint="@color/button_unselected"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="large_gap">30dp</dimen>
+    <dimen name="large_horiz_margin">70dp</dimen>
+    <!-- font stuff-->
+    <dimen name="toolbar_font_size">50sp</dimen>
+
+    <!-- List View padding -->
+    <dimen name="padding_lv_item">10dp</dimen>
+    <dimen name="padding_lv_sides">10dp</dimen>
+    <dimen name="elevation_lv_item">3dp</dimen>
+    <dimen name="divider_height">10dp</dimen>
+    <dimen name="padding_lv_top">7dp</dimen>
+</resources>

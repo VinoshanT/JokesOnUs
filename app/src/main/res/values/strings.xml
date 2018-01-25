@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">JokesOnUs</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Favorites</string>
+    <string name="title_notifications">My Jokes</string>
+    <string name="add_a_joke">Add a joke</string>
+    <string name="add_joke_hint">Tell us a joke, better be funny</string>
+    <string name="submit_joke">Submit a Joke</string>
+    <string name="add_a_joke_title">Add a joke</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dialog_title">Pick a tag, any tag</string>
+
+    <array name="tags_array">
+        <item name="stupid">Stupid</item>
+        <item name="Fat">Fat</item>
+        <item name="Black">Black</item>
+        <item name="Mom">Mom</item>
+    </array>
+</resources>
